@@ -10,8 +10,7 @@ import Auth from "./page/Auth/Auth";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import ProtectedRoute from "./Components/ProtectRoute/ProtectedRoute";
-const stripePromise = loadStripe(
-  "pk_test_51SBAONFplWkn3P5Es3xvsWdVKCt5NprgzYsygK7dYOxwgBDZ0A9aXo1EyBAXvV4musefCtFIzPi7vtYloQ77jiK700sDrA99jP"
+const stripePromise = loadStripe("pk_test_51SMC7MQ9Dg174hhV3ppxIPLThHUB10KhlvbbnCEpdsvB7eAT7xmTEuE3k0EEQibnOVOaPLEiqMWRgUWV6mxtxCSf005jUpLy8K"
 );
 
 function Routering() {
